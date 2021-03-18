@@ -1,7 +1,7 @@
 <p align="center">
 <h3> Como Executar o projeto? </h3>
 <ul>
-    <li> Clone o Projeto em um nova pasta com o comando git clone https://github.com/paulomagno/api-123milhas.git <li>.
+    <li> Clone o Projeto em um nova pasta com o comando git clone https://github.com/paulomagno/api-123milhas.git </li>.
     <li> Execute o comando "composer install" através do seu terminal de comando na pasta onde está o projeto </li>
     <li>Após o passo executado acima rode o comando "php artisan server" e o projeto irá abrir.</li>
 <ul>
