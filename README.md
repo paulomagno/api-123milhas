@@ -6,7 +6,8 @@
     <li>Após o passo executado acima rode o comando "php artisan server" e o projeto irá abrir.</li>
 <ul>
 </p>
-<p align="center"><a href="https://documenter.getpostman.com/view/14148005/Tz5v1v41" target="_blank">Link da Documentação da API</a></p>
+<p align="left"><a href="https://documenter.getpostman.com/view/14148005/Tz5v1v41" target="_blank"><h3>Link da    Documentação da API</h3></a>
+</p>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
