@@ -96,6 +96,8 @@ class FlightController extends Controller {
         }
 
         $this->flightsGrouped['flights'] = $this->getAllFlights();
+        $this->flightsGrouped['cheapestPrice'] = $this->flightsGrouped['groups'][0]['totalPrice'];
+        $this->flightsGrouped['cheapestGroup'] = $this->flightsGrouped['groups'][0]['uniqueID'];
         $this->flightsGrouped['totalGroups']  = $totalGroups;
         $this->flightsGrouped['totalFlights'] = sizeof($this->flights);
 
@@ -110,5 +112,7 @@ class FlightController extends Controller {
                ->header('Content-Type', ' application/json; charset=utf-8');
 
     } // end sortGroupFlights
+
+
 
 } // End Class FlightController.php
